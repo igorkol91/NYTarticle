@@ -2,7 +2,7 @@ New York Times Article Clone
 
     This is a practice project about an exciting article on Space Ripples Revealing the Big bang's Smoking Gun, the Inflation Theory.
 
-https://github.com/igorkol91/NYTarticle/issues/2#issue-839659749
+![Screenshot_20210324_120108](https://user-images.githubusercontent.com/73760803/112308587-9659f300-8ca2-11eb-9a0c-1528803f39d3.png)
 
 Additional description about the project and its features.
 Built With
