@@ -200,6 +200,12 @@ a {
   flex-wrap: wrap;
 }
 
+aside div {
+  display: flex;
+  float: right;
+  margin-top: 10px;
+}
+
 .first-row div {
   height: 200px;
   width: 300px;
@@ -220,12 +226,6 @@ a {
   font-size: 15px;
 }
 
-aside div {
-  display: flex;
-  float: right;
-  margin-top: 10px;
-}
-
 #theory-of-inflation div {
   margin-right: 10px;
   margin-bottom: 30px;
@@ -233,7 +233,7 @@ aside div {
 
 .right p {
   margin-bottom: 50px;
-  font-size: bold;
+  font-weight: bold;
 }
 
 #theory-of-inflation p {
@@ -441,7 +441,7 @@ aside {
 .sticky {
   width: 100%;
   height: 40px;
-  bottom: 0px;
+  bottom: 1px;
   position: fixed;
   justify-content: space-around;
   background-color: white;
