@@ -338,3 +338,28 @@ aside div {
     cursor: pointer;
     text-decoration: underline;
 }
+
+#leftout-section {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#leftout-section div {
+    width: 22%;
+}
+
+#leftout-section img {
+    height: 200px;
+    width: 200px;
+}
+
+.left {
+    width: 100%;
+    background-color: red;
+}
+
+.right-sec {
+    background-color: blue;
+}
