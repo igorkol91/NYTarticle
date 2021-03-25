@@ -395,8 +395,6 @@ aside {
 }
 
 #leftout-section {
-  flex-wrap: wrap;
-  justify-content: space-between;
   width: 80%;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -404,6 +402,8 @@ aside {
 
 .left {
   flex: 3;
+  flex-wrap: wrap;
+  width: 70%;
 }
 
 .first-row {
