@@ -1,0 +1,489 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.new-line::after {
+  content: "\a";
+  white-space: pre;
+}
+
+img {
+  display: block;
+}
+
+header div img {
+  height: 16px;
+  width: 16px;
+}
+
+main {
+  padding-top: 70px;
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
+}
+
+#left-header {
+  width: 400px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#left-header button {
+  background-color: transparent;
+  border: none;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.main-image img {
+  width: 600px;
+}
+
+.first-row div img {
+  width: 50%;
+  height: 100px;
+}
+
+.second-row div img {
+  width: 100%;
+}
+
+#mid-header img {
+  width: 200px;
+  height: 33px;
+  background-color: transparent;
+  padding-top: 3px;
+}
+
+#right-header button {
+  background-color: #567b95;
+  border: none;
+  margin-right: 15px;
+  padding: 0 10px;
+  height: 30px;
+  align-self: center;
+  border-radius: 3px;
+}
+
+#right-header {
+  width: 23%;
+}
+
+#title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  font-style: italic;
+  font-family: georgia, 'times new roman', times, serif;
+  padding-bottom: 40px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#logos-container {
+  position: relative;
+  margin-left: 210px;
+  margin-bottom: 30px;
+}
+
+#logos-container img {
+  margin-left: 10px;
+  height: 20px;
+}
+
+.morning h3,
+p,
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#main-image img {
+  width: 1000px;
+}
+
+#theory-of-inflation img {
+  width: 250px;
+  height: 140px;
+}
+
+#comments-button button {
+  background-color: #567b95;
+  border-radius: 3px;
+  border: none;
+  height: 40px;
+  width: 300px;
+  margin-right: 150px;
+}
+
+#comments-button img {
+  margin-left: 10px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+#logos-container img:hover {
+  border: grey 1px solid;
+  border-radius: 50px;
+}
+
+#section2-div2 button {
+  height: 35px;
+  align-self: center;
+  background-color: white;
+  color: black;
+  width: 120px;
+  border: black solid 1.5px;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#section2-div2 button:hover {
+  background-color: black;
+  color: white;
+}
+
+#section-1 h3 {
+  text-align: center;
+}
+
+#main-text {
+  font-family: georgia, 'times new roman', times, serif;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+#second-div {
+  display: block;
+  width: 100%;
+}
+
+#section-1 {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#section-2 {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+
+#thank-youP {
+  text-align: center;
+}
+
+#theory-of-inflation {
+  flex-wrap: wrap;
+}
+
+aside div {
+  display: flex;
+  float: right;
+  margin-top: 10px;
+}
+
+.first-row div {
+  height: 200px;
+  width: 300px;
+  margin-right: 25px;
+  margin-bottom: 90px;
+  line-height: 25px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.second-row div {
+  height: 200px;
+  width: 300px;
+  margin-right: 25px;
+  margin-bottom: 90px;
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+#theory-of-inflation div {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.right p {
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+#theory-of-inflation p {
+  width: 250px;
+  line-height: 20px;
+}
+
+#inflation-img {
+  width: 1040px;
+  flex-direction: column;
+  margin: 0 0 0 -45%;
+}
+
+#inflation-img h4 {
+  font-weight: bold;
+}
+
+#inflation-img p {
+  font-size: 13px;
+}
+
+#infhr {
+  float: left;
+  width: 100px;
+}
+
+iframe {
+  width: 100%;
+}
+
+figcaption {
+  display: inline;
+  font-size: 12px;
+}
+
+.credit {
+  font-size: 10px;
+}
+
+#bottom-logos {
+  height: 120px;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+#bottom-logos img:hover {
+  border: grey 1px solid;
+  border-radius: 50px;
+}
+
+footer {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#main-footer-div {
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.title-bot {
+  border-top: black 1px solid;
+  width: 100%;
+  margin-right: 200px;
+  padding-top: 20px;
+}
+
+.title-bot-editor {
+  border-top: black 1px solid;
+  width: 82%;
+  padding-top: 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.low-sec {
+  padding-bottom: 50px;
+}
+
+footer li:first-child {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.top-subscribe {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mid-subscribe {
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.mid-subscribe-last {
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+#main-footer-div ul {
+  margin-right: 120px;
+  width: 100px;
+}
+
+.footer-ul li:hover {
+  cursor: pointer;
+  border-bottom: 1px black solid;
+}
+
+#main-footer-div div {
+  border-left: solid lightgray 1px;
+  margin-left: 10px;
+}
+
+.main-footer-margin {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 17px;
+}
+
+#main-footer-div ul li {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 10px;
+  color: grey;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.footer-logo {
+  margin-left: 260px;
+  margin-bottom: 30px;
+  height: 35px;
+}
+
+aside {
+  position: relative;
+  margin-left: 170%;
+}
+
+#aside-container {
+  flex-direction: column;
+  justify-content: end;
+}
+
+#aside-container div {
+  width: 270px;
+}
+
+#aside-container div p {
+  text-align: start;
+  margin-left: 4px;
+  width: 300px;
+  font-size: 18px;
+}
+
+#aside-container div p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#leftout-section {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.left {
+  flex: 2;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.first-row {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.right a {
+  color: black;
+  text-decoration: none;
+}
+
+.morning a:hover {
+  color: blue;
+}
+
+.morning-p1 {
+  padding-top: 50px;
+}
+
+.morning-p2 {
+  padding-top: 24px;
+}
+
+.second-row {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.second-row h2:hover {
+  color: grey;
+}
+
+.forth-row {
+  flex-direction: column;
+  width: 100%;
+}
+
+.digital-design {
+  flex-basis: 32%;
+}
+
+.right {
+  border-top: solid black 1px;
+  flex: 0.5;
+  padding-top: 20px;
+}
+
+.right a:hover {
+  color: grey;
+}
+
+.sticky {
+  width: 100%;
+  height: 40px;
+  bottom: 1px;
+  position: fixed;
+  justify-content: space-around;
+  background-color: white;
+  border-top: 1px black solid;
+  padding-top: 7px;
+}
